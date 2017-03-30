@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #474747;
+}
+
+.img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.contact {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.contact li a {
+  color: #474747;
+}
+
+.about h3 {
+  font-size: 18px;
+}
+
+.hello {
+  color: #9f38bd;
+}
+
+.opportunity {
+  color: #1ec129;
+}
+
+@media (max-width: 768px) {
+  .center {
+    top: 40px !important;
+    left: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .about {
+    text-align: center;
+  }
+}
+
+.center {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -330px; /* margin is -0.5 * dimension */
+    margin-top: -200px;
+}​
