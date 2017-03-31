@@ -1,6 +1,15 @@
+html, body {
+    height: 100%;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #474747;
+}
+
+.container {
+    max-width: 900px;
+    padding: 0 10%; 
 }
 
 .img {
@@ -28,7 +37,8 @@ h2 {
 }
 
 .hello {
-  color: #9f38bd;
+  // color: #9f38bd;
+  color: rebeccapurple;
 }
 
 .opportunity {
@@ -48,11 +58,14 @@ h2 {
   }
 }
 
-.center {
+.about-me {
+    width: 100%;
+}
+
+.vert-cent {
     position: absolute;
-    height: auto;
     top: 50%;
-    left: 50%;
-    margin-left: -330px; /* margin is -0.5 * dimension */
-    margin-top: -200px;
-}​
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
