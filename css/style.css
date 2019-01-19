@@ -16,7 +16,7 @@ p {
   padding: 0 10%;
 }
 .about-me {
-  margin-top: 80px;
+  margin-top: 30px;
   width: 100%;
 }
 img {
@@ -33,11 +33,4 @@ img {
   padding-left: 0;
   font-size: 18px;
   margin-bottom: 40px;
-}
-.vert-cent {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
