@@ -1,71 +1,43 @@
 html, body {
     height: 100%;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #474747;
 }
-
-.container {
-    max-width: 900px;
-    padding: 0 10%; 
-}
-
-.img {
-  width: 100%;
-  border-radius: 50%;
-}
-
 h2 {
   font-size: 20px;
 }
-
+p {
+  font-size: 16px;
+}
+.container {
+  max-width: 900px;
+  padding: 0 10%;
+}
+.about-me {
+  margin-top: 80px;
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+.hello {
+  color: rebeccapurple;
+}
+.about h3 {
+  font-size: 18px;
+}
 .contact {
   list-style-type: none;
   padding-left: 0;
   font-size: 18px;
   margin-bottom: 40px;
 }
-
-.contact li a {
-  color: #474747;
-}
-
-.about h3 {
-  font-size: 18px;
-}
-
-.hello {
-  // color: #9f38bd;
-  color: rebeccapurple;
-}
-
-.opportunity {
-  color: #1ec129;
-}
-
-@media (max-width: 768px) {
-  .center {
-    top: 40px !important;
-    left: 0 !important;
-    margin-left: 0 !important;
-    margin-top: 0 !important;
-  }
-
-  .about {
-    text-align: center;
-  }
-}
-
-.about-me {
-    width: 100%;
-}
-
 .vert-cent {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
